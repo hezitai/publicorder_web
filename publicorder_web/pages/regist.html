@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="/libs/css/common.css">
+    <link rel="stylesheet" type="text/css" href="/publicorder_web/libs/css/regist.css">
+    <link rel="stylesheet" type="text/css" href="/publicorder_web/libs/css/com.css">
+
+    <!--[if IE 7]>
+    <script type='text/javascript' src='/libs/js/excanvas.js'></script>
+    <![endif]-->
+    <!--[if IE 8]>
+    <script type='text/javascript' src='/libs/js/excanvas.js'></script>
+    <![endif]-->
+
+
+</head>
+<body>
+    <div class="logo-with-name">
+        <a href="/publicorder_web/index.html"><span></span>返回登录</a>
+    </div>
+    <div class="main">
+        <div class="background"></div>
+        <div class="content">
+            <div id="selectBar">
+                <img src="/publicorder_web/libs/img/select-bar-1.png" alt="">
+            </div>
+            <div id="registPage">
+                <div id="registPageOne">
+                    <div class="left"></div>
+                    <div class="right">
+                        <div class="chooseType chooseType1" data-type="type">
+                            <div class="results cl">
+                                <div class="icon"></div>
+                                <div class="name">请选择场所类别</div>
+                                <div class="isShow show"></div>
+                            </div>
+                            <ul class="options" id="businesskind" data-value="none"></ul>
+                        </div>
+                        <div class="chooseType chooseType2" style="top: 150px;" data-type="place">
+                            <div class="results cl">
+                                <div class="icon"></div>
+                                <div class="name">请选择所属派出所</div>
+                                <div class="isShow show"></div>
+                            </div>
+                            <ul class="options" id="policeStationList" data-value="none"></ul>
+                        </div>
+                        <div class="chooseType chooseType3" style="top: 200px;" data-type="place">
+                            <div class="results cl">
+                                <div class="icon"></div>
+                                <div class="name">请选择民警</div>
+                                <div class="isShow show"></div>
+                            </div>
+                            <ul class="options" id="policeList" data-value="none"></ul>
+                        </div>
+                        <div class="chooseType chooseType4" style="top: 250px;" data-type="place" onclick="regist.address()">
+                            <div class="results cl">
+                                <div class="icon"></div>
+                                <div class="name">请选择行政区域</div>
+                                <div class="isShow show"></div>
+                            </div>
+                            <ul class="options" id="addressList" data-value="none"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="userMessage" style="display: none">
+                    <div class="login-input-box">
+                        <label>单位名称：</label>
+                        <input type="text" data-key="ds_name" data-verify="isNull" data-label="单位名称" class="input" value="">
+                    </div>
+                    <div class="login-input-box">
+                        <label>单位地址：</label>
+                        <input type="text" data-key="ds_address" data-verify="isNull" data-label="单位地址" class="input" value="">
+                    </div>
+                    <div class="login-input-box">
+                        <label>登录名称：</label>
+                        <input type="text" data-key="ds_username" data-verify="isNull" data-label="登录名称" class="input" value="">
+                        <p style="color:red; font-size:12px; line-height:15px; text-align:right;">注：请尽量使用单位名称作为登陆名称</p>
+                    </div>
+                    <fieldset>
+                        <legend>法人代表信息</legend>
+                        <div class="login-input-box">
+                            <label>姓名：</label>
+                            <input type="text" class="left margin" data-key="ds_owner_ref_ds_name" data-verify="isNull" data-label="法定代表人姓名" value="">
+                            <label>联系电话：</label>
+                            <input type="text" class="left" data-key="ds_owner_ref_ds_phone" data-verify="isNull;isPhone" data-label="法定代表人联系电话" value="">
+                        </div>
+                        <div class="login-input-box">
+                            <label>公民身份证号：</label>
+                            <input type="text" class="left margin" data-key="ds_owner_ref_ds_id" data-verify="isNull;isIdCard" data-label="法定代表人身份证" value="">
+                            <label>家庭住址：</label>
+                            <input type="text" class="left" data-key="ds_owner_ref_ds_address" data-verify="isNull" data-label="法定代表人家庭住址" value="">
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>治安保卫负责人信息</legend>
+                        <div class="login-input-box">
+                            <label>姓名：</label>
+                            <input type="text" class="margin" data-key="ds_securityowner_ref_ds_name" data-verify="isNull" data-label="治安保卫负责人姓名" value="">
+                            <label>联系电话：</label>
+                            <input type="text" data-key="ds_securityowner_ref_ds_phone" data-verify="isNull;isPhone" data-label="治安保卫负责人联系电话" value="">
+                        </div>
+                        <div class="login-input-box">
+                            <label>公民身份证号：</label>
+                            <input type="text" class="margin" data-key="ds_securityowner_ref_ds_id" data-verify="isNull;isIdCard" data-label="治安保卫负责人身份证" value="">
+                            <label>家庭住址：</label>
+                            <input type="text" data-key="ds_securityowner_ref_ds_address" data-verify="isNull" data-label="治安保卫负责人家庭住址" value="">
+                        </div>
+                    </fieldset>
+                    <div class="login-input-box short">
+                        <label>治安保卫负责<br>人联系电话：</label>
+                        <input type="text" data-key="ds_securityowner_ref_ds_phone2" data-verify="isNull;isPhone" data-label="治安保卫负责人联系电话" class="input" value="">
+                    </div>
+                </div>
+                <div id="Maps" style="display: none">
+                    <p>请在地图中选取场所详细地址：</p>
+                    <div id="MapContainer"></div>
+                </div>
+                <div id="complete" style="display: none">
+                    <div class="left"></div>
+                    <div class="right">
+                        <h2>注册完成</h2>
+                        <p id="completeUserName"></p>
+                        <p id="completePassWord"></p>
+                        <a href="/publicorder_web/index.html" style="color: #fff; text-decoration : underline">返回登录</a>
+                    </div>
+                </div>
+                <div id="prev" class="hide"></div>
+                <div id="next" class="hide"></div>
+            </div>
+        </div>
+    </div>
+    <div id="footer1">
+        <p>Copyright 2016 Lighting Inc.All Right Reserved 长春点亮科技有限公司 | 保留所有权</p>
+        <p>法律声明&nbsp;&nbsp;|&nbsp;&nbsp;隐私</p>
+    </div>
+
+    <script src="/libs/js/jquery.min.js"></script>
+    <script src="/libs/js/common.js"></script>
+    <!-- 待验证，让ie8支持canvas ，浏览器有问题，无法访问外网，暂无测试 -->
+    <!-- <script src="/web/Scripts/html5.js"></script>
+        <script src="/web/Scripts/excanvas.js"></script> -->
+    <script src="http://webapi.amap.com/maps?v=1.3&key=c8d499635271ab4f9d449d35911e2cf1&plugin=AMap.Autocomplete"></script>
+    <script src="/publicorder_web/libs/js/regist.js"></script>
+    <script src="/publicorder_web/libs/js/jquery.slideunlock.js"></script>
+    <script src="/publicorder_web/libs/js/permissions.js"></script>
+</body>
+</html>

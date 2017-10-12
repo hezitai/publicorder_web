@@ -1,0 +1,62 @@
+html {position: relative; min-height:100%; min-width: 960px; }
+body { width: 100%; padding-bottom: 100px;}
+/* nav */
+#navbox{width: 100%;height: 75px; min-width: 960px; background: #41558a;}
+#nav { background: url(/publicorder_web/libs/img/nav-bg-1.png);  width: 100%;top: 0;left: 0; max-width: 1248px; margin: 0 auto;}
+#nav::after { content: ""; clear: both; display: block; }
+#nav .bg { position: absolute; top: 0px; left: 0px; width: 1024px; height: 74px; background: url(/publicorder_web/libs/img/nav-bg-2.png); left: 50%;margin: 0 0 0 -512px;}
+#nav .logo { position: relative; z-index: 3; margin-right: 40px; float: left; } 
+#nav .menu ,#nav .quit { position: relative; z-index: 3; float: left;cursor: pointer;} 
+#nav a{ display: inline-block; margin-right:25px; text-align: center; }
+#nav span{ display: block; color: #fff; font-size: 14px; }
+#nav .icon { width: 43px; height: 28px; margin: 15px auto 2px auto; }
+#nav .helpfor{ background: url(/publicorder_web/libs/img/nav_2.png); }
+#nav .realname{ background: url(/publicorder_web/libs/img/nav_3.png); }
+#nav .place { background: url(/publicorder_web/libs/img/nav_1.png); }
+#nav .news { background: url(/publicorder_web/libs/img/nav_4.png); }
+#nav .contact { background: url(/publicorder_web/libs/img/nav_5.png); }
+#nav .quit_cion { background: url(/publicorder_web/libs/img/nav_6.png); }
+#nav .send{background: url(/publicorder_web/libs/img/nav_8.png) no-repeat;}
+
+#nav .publicmanage { background: url(/publicorder_web/libs/img/nav_10.png);}
+#nav .changepassword { background: url(/publicorder_web/libs/img/nav_9.png); }
+
+#nav a:hover .publicmanage { background: url(/publicorder_web/libs/img/nav_10_1.png) no-repeat; }
+#nav a.active .publicmanage { background: url(/publicorder_web/libs/img/nav_10_1.png) no-repeat; }
+#nav a:hover .changepassword { background: url(/publicorder_web/libs/img/nav_9_1.png) no-repeat; }
+#nav a.active .changepassword { background: url(/publicorder_web/libs/img/nav_9_1.png) no-repeat; }
+
+#nav a:hover span { color: #dfc28c; }
+#nav a.active span { color: #dfc28c; }
+#nav a:hover .place { background: url(/publicorder_web/libs/img/nav_1_1.png) no-repeat; }
+#nav a.active .place { background: url(/publicorder_web/libs/img/nav_1_1.png) no-repeat; }
+
+
+#nav a:hover .helpfor { background: url(/publicorder_web/libs/img/nav_2_1.png) no-repeat; }
+#nav a.active .helpfor { background: url(/publicorder_web/libs/img/nav_2_1.png) no-repeat; }
+#nav a:hover .realname { background: url(/publicorder_web/libs/img/nav_3_1.png) no-repeat; }
+#nav a.active .realname { background: url(/publicorder_web/libs/img/nav_3_1.png) no-repeat; }
+
+
+#nav a:hover .news { background: url(/publicorder_web/libs/img/nav_4_1.png) no-repeat; }
+#nav a.active .news { background: url(/publicorder_web/libs/img/nav_4_1.png) no-repeat; }
+#nav a:hover .contact { background: url(/publicorder_web/libs/img/nav_5_1.png) no-repeat; }
+#nav a.active .contact { background: url(/publicorder_web/libs/img/nav_5_1.png) no-repeat; }
+#nav a:hover .quit_cion { background: url(/publicorder_web/libs/img/nav_6_1.png) no-repeat; }
+#nav a.active .quit_cion { background: url(/publicorder_web/libs/img/nav_6_1.png) no-repeat; }
+#nav a:hover .send { background: url(/publicorder_web/libs/img/nav_8_1.png) no-repeat;}
+#nav a.active .send { background: url(/publicorder_web/libs/img/nav_8_1.png) no-repeat;}
+#nav .quit { position: relative; z-index: 3; float: right;} 
+
+/* main */
+#main { max-width:1248px;width: 96%; margin: 0 auto; font-size: 14px; }
+
+.title-page { width: 100%; margin: 25px auto; line-height: 40px; font-size: 18px; font-weight: bold; border-bottom: 2px solid #bbb; color: #41588e; }
+.title-page::before { content: ""; display: inline-block; width: 5px; height: 20px; margin: -3px 10px 0 0; background: #41588e; vertical-align: middle; }
+
+
+/* Footer */
+#footer { text-align: center; position: absolute; bottom: 0; width: 100%; font-size:12px; color: #41588e; background-color: #F1F1F1;padding: 20px 0; z-index:9;}
+#footer1 { text-align: center; position: absolute; bottom: 0; width: 100%; font-size:12px; color: #FFFFFF;padding: 20px 0; z-index: -1;}
+
+

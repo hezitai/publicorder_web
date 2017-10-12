@@ -1,0 +1,425 @@
+body,div,form,h1,h2,h3,h4,h5,h6,html,p,input{margin:0;padding:0;font-family:"Microsoft YaHei",Verdana,Geneva,sans-serif;line-height:inherit;border:0;outline:0}
+p, a, li, button, i, b, img, span{cursor: pointer;} 
+input[type=text]:focus,input[type=button]:focus,input[type=submit]:focus{outline:none;}
+input[type=button]::-moz-focus-inner{outline:0;}
+input{text-indent: 5px;overflow: auto;}
+a{outline:0;text-decoration:none;color:#000}
+a:hover{outline:0;text-decoration:none!important}
+html {position: relative; min-height:100%; min-width: 900px; }
+body { width: 100%; padding-bottom: 100px;}
+ul{list-style:none; margin: 0; padding :0;}
+a{cursor: pointer;}
+li{list-style: none;}
+textarea{resize: none;text-indent: 5px;overflow: auto;}
+/* .dialog-bg{opacity:1; filter:alpha(opacity=100);} */
+.title-name:before{content: '';display: inline-block;height: 24px;width: 8px;background-color: #41588E; margin-right: 17px;margin-top: 5px}
+.title-name{color: #41588E; line-height: 40px;font-size: 20px;display:  inline-block;float: left}
+.title-name:after{content: '';display:  inline-block;width: 1000px;height: 2px; background-color:#B1B1B1; margin-bottom: 20px}
+#main-a{width:60% ; float: left;}
+
+.detail-table{overflow:hidden;height:100%}
+.detail-table table{float:left; width: 100%; background-color:#cacaca;text-align:center}
+.detail-table>:first-child{margin:0}
+.detail-table table th{height:40px;background-color:#0068b7;color:#fff;font-size:16px;letter-spacing:1px ;font-weight: 400}
+.detail-table table tr{height:45px;background-color:#fff}
+.detail-table table td{color:#676767;font-size: 14px}
+.detail-table table p{width:100%;color:#848484;text-align:left;line-height:34px}
+
+#main-b{width: 25%; float: right; margin-right: 66px;margin-top: 10px}
+#main-b ul{padding: 0; margin: 0}
+#main-b p{font-size: 16px; line-height: 50px;border-bottom:2px solid #cacaca ; font-weight: 700}
+#main-b li{border-bottom: 1px solid #cacaca; width: 100%; height: 72px; position: relative; cursor:default;}
+#main-b .fileimg{width: 42px;height: 49px;margin-left: 7px;margin-top: 12px;cursor: pointer;}
+#main-b span{font-size: 14px;color:#676767;top: 18px;position: absolute;left: 64px;cursor: pointer;}
+#main-b button{border:none;width: 12px;height: 14px; }
+#main-b button img{width: 100%;}
+#main-b .btns{position: absolute; right: 10px;bottom: 7px;}
+#main-b .btns div{width: 20px;height: 20px; float: left;margin-left: 5px;}
+#main-b .btns button{margin-left: 0px;}
+#main-b .btns img{width: 100%}
+.division{display: block; width: 1px; height: 435px;background-color: #cacaca;margin-right:50px; float: right;}
+.main-con{width: 100%;margin:30px auto;}
+
+.leftName{text-align: left;padding-left: 20px;display: outline-block}
+.stufflist{overflow: auto;height: 370px}
+.stuff{border: 0;position: relative;}
+.stuff h3{height: 40px;background-color: #0068b7;color: #fff;font-size: 16px;letter-spacing: 1px;font-weight: 400;text-align: center; line-height: 40px;border-radius: 5px}
+.stuff button{border:1px solid #fff; font-size: 14px; border-radius: 5px; color: #fff; background-color:#0068b7;position: absolute;width: 50px; height: 23px;top: 8px; right: 10px;line-height: 20px }
+.stufflist li{width: 100%; height: 50px; border-bottom: 1px solid #ccc;position: relative; }
+.stufflist p{line-height: 50px;color:#676767;padding-left:15px; font-size: 16px; }
+.stufflist span{line-height: 50px;color:#676767;}
+.stufflist a{position: absolute; font-size: 14px; border-radius: 20px; color: #fff; background-color:#0068b7;width: 50px; height: 23px; text-align: center;line-height: 23px}
+.stufflist .cekstuff{top: 15px; right:90px;}
+.stufflist .deletemes{top: 15px; right:90px!important;}
+.stufflist .delstuff{top: 15px; right:20px;}
+.hideDom{display: none;}
+.stulist li div{width: 100%;height: 147px;}
+.stulist li{display: block;float: left;width: 23%;border: 1px solid #CCCCCC; height:147px;box-sizing: border-box;margin:0px 5px 10px 5px;}
+.stulist li img{width: 44px;margin:30px auto 0 50px;}
+.stulist li p{font-size: 16px; color:#666666;text-align: center; }
+.stulist{margin:5px 20px 0px 20px; height:400px;display: block;overflow: auto}
+
+.title-page{position: relative; margin-bottom: 0!important;}
+.title-page img{position: absolute;right: 10px;top: 5px;}
+.helpforlist{height: 500px;width: 100%;}
+.delbtn{float: right;margin:15px 25px auto 15px;}
+.helpul li{height: 49px; border-bottom:1px dashed #ccc;cursor: default;}
+.helpul p{display: block;float: left; line-height: 49px;margin-right:0px;color: #666666;cursor: default;}
+.helpul a{ line-height: 49px;display: block;float: left;color: #666666; font-size: 14px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width: 350px;}
+.fileimg{margin:10px 25px auto 5px;display: block;float: left;cursor: default;}
+.helpul div{float: right}
+.pagebox{height: 50px;position: absolute;bottom: 0;left: 0; top:0; right: 0; margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:100px; }
+.page_div3{padding: 0!important;}
+.page_div3 div{width: 360px;height: 50px;display: flex;justify-content: center;align-items: flex-end; margin:0 auto;}
+.page_div3 button:first-child{border: 1px solid #DDDDDD;background-color: #fff;width: 70px ;height: 27px;font-size: 16px; color: #4389C7; border-radius: 5px; display: block;float: left; margin: auto 0;}
+.page_div3 button:last-child{border: 1px solid #DDDDDD;background-color: #fff;width: 70px ;height: 27px;font-size: 16px; color: #4389C7; border-radius: 5px;display: block;float: right; margin:auto 0;}
+.page_div3 p{line-height: 50px;font-size: 16px; color: #4389C7;margin:auto 20px; }
+.page_div3 select{border: 1px solid #DDDDDD;  border-radius: 5px; width: 46px ;height: 27px;}
+.paging{padding:00px 0!important;margin-top: 160px}
+.content-box p{font-size: 18px;color: #928686;line-height: 30px;width: 98%;margin-left: 1%;margin-top: 12px;cursor: default;}
+.content-box h1{font-size: 18px;color: #41588e;font-weight: normal;margin-top: 66px;cursor: default;}
+.content-box span{font-size: 18px;color: #a5a5a5;display: block;margin-top: 34px;cursor: default;}
+.content-box a{font-size: 18px;color: #666666;display: block;margin-top: 27px;cursor: default;}
+
+.readimg{margin:15px 25px auto 5px;display: block;float: left}
+.sendbox{margin-top: 30px;clear: both}
+.sendbox .sandbox1{width:8%;float: left}
+.sendbox .sandbox1 p{font-size: 18px;color: #666666;text-align: center }
+.sendbox .sandbox2{width:85%;float: left}
+.sendbox .sandbox2 textarea{width: 100%; font-size: 18px; min-height: 100px;max-height: 350px;padding: 5px; color: #666; text-indent: 2em;}
+.sendbtns{width:100%;height: 50px;clear: both;}
+.sendbtns .send{width: 106px;height: 36px;border: 1px solid #1F82C5; font-size: 14px;color:#1F82C5;background-color: #fff;border-radius: 5px ;display: block;float: right;margin-right: 80px; margin-top: 30px;}
+.sendbtns .send:hover{background-color:#1F82C5;color:#fff;}
+.sendbtns .onesend{width: 106px;height: 36px;border: 1px solid #1F82C5; font-size: 14px;color:#1F82C5;background-color: #fff;border-radius: 5px ; display: block;float: right;margin-right: 30px;margin-top: 30px;}
+.sendbtns .onesend:hover{background-color:#1F82C5;color:#fff;}
+
+.messlist ul li{width: 230px; display: block; height: 20px; float: left;margin:20px 0 0 20px;}
+.messlist{width: 100%;display: table;}
+.mlist{width: 500px;height: 230px;}
+.mlist span{color: red; display: block;float: left;width: 15px;}
+.mlist p{display: block;float: left;width: 70px;font-size: 14px;color: #666666;}
+.mlist .lastmesslist{width: 480px}
+.mlist .idaheadpic{width:324px;float: left;border: 1px solid #a9a9a9!important; height: 20px;border-right: none!important;}
+.mlist input{text-indent: 4px;height: 22px;}
+.mlist select{border: 1px solid #ccc; width: 140px;float: right;text-indent: 4px;height: 22px;}
+#checkbtn{display: block;float: right;width: 35px;height: 22px;background:#FFFFFF;border: 1px solid #A9A9A9;background-image: url(/publicorder_web/img/update1.png);}
+#updatebtn{display: block;float: right;width: 35px;height: 22px;background:#FFFFFF;border: 1px solid #A9A9A9;/* border-right: none!important; */background-image: url(/publicorder_web/img/check.png);}
+
+.dangerlist{width: 100%;}
+.dlist li{float: left;display: block;margin-left: 4px;margin-top: 9px}
+.dlist input, .dlist textarea{border : 1px solid #ccc;float: right;text-indent: 5px;}
+.dlist textarea{resize: none; display: block}
+.dlist p{width: 110px; font-size: 12px;color: #666666;display: block;float: left;margin-right: 2px}
+.ds_location{width: 161px;height:20px;}
+.ds_name{width: 161px;height:20px;}
+.ds_charge{width: 161px;height:20px;}
+.ds_namephone{width: 161px;height:20px;}
+.ds_nameid{width: 161px;height:20px;}
+.ds_type{width: 161px;height:20px;}
+.ds_description{width: 460px;height:50px;}
+.ds_condition{width: 460px;height:50px;}
+.ds_measure{width: 460px;height:50px;}
+.ds_disposeplan{width: 460px;height:50px;}
+.dlist div .nth2li{margin-left: 25px; position: relative;}
+.dlist div .nth2li .readIdCard { position: absolute; top: 1px; right: 1px; height: 20px; border-radius: 20px; text-align: center; color: #fff; background: #0168b7; font-size: 12px; line-height: 20px; width: 35px; }
+.studentlist{width: 100%;height: 380px}
+.studentlist .stulistleft{height: 100%;width: 158px;border-right:1px solid #ccc;overflow: auto;}
+.stulistleft{width:100%;height:100%;float: left}
+.students ul{margin:0;}
+.students li{clear:both; display: block;height: 35px;width: 100%;border-bottom: 1px solid #ccc;line-height: 35px;cursor: pointer;}
+.students li p{display: block;float: left;margin-left: 5px;font-size: 14px;}
+.students li img{display: block;float: right;margin-top: 8px;margin-right: 5px;cursor: pointer;}
+.stulistleft header{border-bottom: 1px solid #ccc;height:40px;line-height: 40px}
+.stutitle{height: 29px;float: left;width: 100%;}
+.stulistleft header img{display: block;float: right;margin-top: 15px;margin-right: 5px;cursor: pointer;}
+.stulistleft header p{display: block;float: left;margin-left: 5px}
+.studentlist .stulistright{height: 100%;width:641px;float: right; overflow: auto;}
+.studentlist .stulistright header{border-bottom: 1px solid #ccc;height:40px;line-height: 40px}
+.studentlist .stulistright header img{display: block;float: right;margin-top: 10px;margin-right: 5px;width:80px;}
+.studentlist .stulistright header p{display: block;float: left;padding-left: 10px;}
+.putininfo .putbtn{margin-right: 30px!important;}
+.studentlist .stulistright a{font-size: 12px; border-radius: 15px; color: #fff; background-color:#0068b7; height: 20px ;text-align: center;line-height: 20px!important;float: right;margin:5px 10px 0 5px;display: block;width: 48px;height: 20px ;}
+.studentlist .stulistright .cancelinfo{color: #ccc; background-color:#fff;border:1px solid #ccc;margin-top:2px;}
+.studentlist .stulistright .cancelinfo:hover{ color: #fff;background-color:#0068b7;}
+
+.studentlist .stulistright .readIdCard{width: 80px;margin-top:2px;}
+
+
+.studentlist .stulistright .putinfo{color: #ccc; background-color:#fff;border:1px solid #ccc;margin-top:2px;}
+.studentlist .stulistright .putinfo:hover{ color: #fff;background-color:#0068b7;}
+
+.studentsection .showdiv{clear:both; display: block;height: 28px;width: 100%;border-bottom: 1px solid #ccc;line-height: 28px;position: relative;padding-top: 10px;}
+.studentsection .showdiv p{display: block;float: left;margin-left: 5px;font-size: 14px;}
+.studentsection .showdiv img{display: block;float: right;margin-top: 8px;margin-right: 5px}
+.studentsection .showdiv input{border: 1px solid #ccc}
+.studentsection .hidediv{width:600px;height: 80px;background:#F0F0F0;margin:4px;padding:6px;border: 1px solid #ccc;margin-top: 40px;}
+.studentsection .hidediv div{float: left;font-size: 12px;width: 220px;height: 30px;margin:0 0 0 50px;}
+.studentsection .hidediv div p{width: 80px;display: block;float: left;font-size: 16px;}
+.studentsection .hidediv div input{width: 138px;height: 18px;border: 1px solid #ccc;float: right;font-size: x-small;}
+.studentsection .hidediv .hidebtn{margin-left:200px; width: 350px;}
+.putininfo{margin:10px;}
+.putininfo input{width: 80px;height: 18px;border: 1px solid #ccc;float: left}
+.putininfo p{display: block;float: left;font-size: 14px}
+
+.helpfordialog textarea{margin:25px;border: 1px solid #ccc;}
+.classinfo{width: 600px!important;height: 500px!important;margin-top: -300px!important;}
+.classinfo .alert-body{height: 375px!important;overflow:auto!important;}
+.classinfo .alert-body p{padding: 0!important; word-break: break-all; text-align: left; text-indent: 2em;}
+
+
+.delinfo{width: 500px!important;height: 200px!important;border-radius: 5px;margin:-150px 0 0 -250px!important;}
+.delinfo .dialog-body{line-height: 100px;text-align: center;font-size: 16px;color: #676767}
+.delinfo .dialog-footer .btn{height: 40px;line-height: 40px;font-size: 16px;width: 80px;}
+.delinfo .dialog-footer-text{display: none}
+
+
+.logistics li{margin-top: 5px;}
+.logistics input{line-height: 30px;}
+.logistics input{width: 468px;height: 32px;border:1px solid #ccc; }
+.logistics p{color: #666666;font-size:12px;display: block;float: left;width: 90px;height: 32px;text-align: left;line-height: 32px;margin-left: 15px }
+.logistics textarea{width: 464px;height: 140px;border:1px solid #ccc;resize: none;}
+.logistics .picinput{width: 410px;height: 30px;border:1px solid #ccc;border-right: none}
+.logistics .browsebtn{border: 1px solid #ccc;background: #fff;color: #D7D7D7;width: 60px;height: 32px;text-align: center;line-height: 32px;padding: 0;margin:0;margin-left: -5px }
+
+.metaldialog{height: 575px!important;}
+.metaldialog input{line-height: 30px;}
+.metaldialog .dialog-body{height: 465px!important;}
+.metaldialog .metalinfo li{margin-top: 5px;}
+.metaldialog .metalinfo input{width: 460px;height: 32px;border:1px solid #ccc; }
+.metaldialog .metalinfo p{color: #666666;font-size:12px;display: block;float: left;width: 85px;height: 32px;text-align: left;line-height: 32px;margin-left: 15px }
+.metaldialog .metalinfo textarea{width: 460px;height: 140px;border:1px solid #ccc;resize: none;}
+.metaldialog .metalinfo .picinput{width: 341px;height: 30px;border:1px solid #ccc;border-right: none}
+.metaldialog .metalinfo .browsebtn{border: 1px solid #ccc;background: #fff;color: #D7D7D7;width: 60px;height: 32px;text-align: center;}
+.metaldialog .metalinfo .checkbtn{border: 1px solid #ccc;background: #fff;color: #D7D7D7;width: 60px;height: 32px;text-align: center;}
+
+
+.monaddiv{height: 259px!important;width: 574px!important;}
+.monad li{margin-top:20px;width: 500px ;height:30px;}
+.monad span{color: #666666;font-size:12px;display: block;width: 30px;height: 20px;text-align: left;line-height: 20px;margin-left: 15px;float: left }
+.monad input{width: 170px;height: 20px;border:1px solid #ccc;display: block;float: left ;text-indent: 5px;}
+.monad p{color: #666666;font-size:16px;display: block;width: 90px;height: 20px;text-align: left;line-height: 20px;margin-left: 15px;float: left }
+
+
+.postgoods li{margin-top: 5px; position: relative;}
+.postgoods input{line-height: 30px;}
+.postgoods li .readIdCard { position: absolute; top: 5px; height: 25px; right: 30px; text-align: center; color: #fff; background: #0168b7; border-radius: 20px; line-height: 25px; font-size: 12px; width: 50px; }
+.postgoods input{width: 468px;height: 32px;border:1px solid #ccc; text-indent: 5px}
+.postgoods p{color: #666666;font-size:12px;display: block;float: left;width: 100px;height: 32px;text-align: left;line-height: 32px;margin-left: 15px }
+.postgoods textarea{width: 468px;height: 80px;border:1px solid #ccc;resize: none;}
+.postgoods .lastli p{line-height: 2;}
+.postgoods .picinput{width: 359px;height: 30px;border:1px solid #ccc;border-right: none}
+.postgoods .browsebtn{border: 1px solid #ccc;background: #fff;color: #D7D7D7;width: 55px;height: 32px;text-align: center; }
+.postgoods .checkbtn{border: 1px solid #ccc;background: #fff;color: #D7D7D7;width: 55px;height: 32px;text-align: center;}
+
+
+.nonealert{height: 300px}
+
+.hotelmessage{width: 600px!important; height:auto!important; }
+.hotelmessage .dialog-body{height:auto!important;}
+.hotelmessage .hotel li{margin-top: 15px;}
+.hotelmessage input{line-height: 32px;}
+.hotelmessage .hotel input{width: 440px;height: 32px;border:1px solid #ccc; }
+.hotelmessage .hotel p{color: #666666;font-size:12px;display: block;float: left;width: 90px;height: 32px;text-align: left;line-height: 32px;margin-left: 15px }
+.hotelmessage .hotel textarea{width: 464px;height: 120px;border:1px solid #ccc;resize: none;}
+.hotelmessage .hotel .picinput{width: 410px;height: 30px;border:1px solid #ccc;border-right: none}
+.hotelmessage .hotel .browsebtn{border: 1px solid #ccc;background: #fff;color: #D7D7D7;width: 60px;height: 32px;text-align: center;line-height: 32px;padding: 0;margin:0;margin-left: -5px }
+
+
+ul{display: block;padding: 0;margin-left: 10px;margin-right: 10px}
+ul li{list-style: none;display: block; position: relative;}
+ul li .readIdCard { position: absolute; top: 4px; right: 15px; height: 25px; border-radius: 20px; text-align: center; color: #fff; background: #0168b7; font-size: 12px; line-height: 25px; width: 50px; }
+
+.title-page .addbtn1{border-radius: 15px;border:1px solid #056DBC;width: 109px;height: 24px;font-size: 14px;color: #056DBC;background:#fff;line-height: 24px;text-align: center;float: right;margin-top:8px;margin-right: 20px;cursor: pointer;}
+.title-page .addbtn1:hover{background:#056DBC; color: #fff}
+.title-page .addbtn2{border-radius: 15px;border:1px solid #056DBC;width: 109px;height: 24px;font-size: 14px;color: #056DBC;background:#fff;line-height: 24px;text-align: center;float: right;margin-top:8px;margin-right: 10px;cursor: pointer;}
+.title-page .addbtn2:hover{background:#056DBC; color: #fff}
+.title-page .addbtn3{border-radius: 15px;border:1px solid #056DBC;width: 109px;height: 24px;font-size: 14px;color: #056DBC;background:#fff;line-height: 24px;text-align: center;float: right;margin-top:8px;margin-right: 20px;cursor: pointer;}
+.title-page .addbtn3:hover{background:#056DBC; color: #fff}
+.title-page .addbtn4{/* border-radius: 15px;border:1px solid #056DBC;width: 109px;height: 24px;font-size: 14px;color: #056DBC;background:#fff;line-height: 24px;text-align: center;float: right;margin-top:8px;margin-right: 20px;cursor: pointer;margin-top: -30px; */    border-radius: 15px;border: 1px solid #056DBC; width: 109px; height: 24px; font-size: 14px;color: #056DBC;background: #fff;line-height: 24px; text-align: center; float: right; margin-top: 8px;margin-right: 20px; cursor: pointer;}
+.title-page .addbtnbox1{float: right;}
+.title-page .addbtn4:hover{background:#056DBC; color: #fff}
+
+.logisticsbody{width: 1200px;margin:0 auto;}
+.logisticsbody .numberlist{width: 100%;height: 40px;margin-top:20px;}
+.logisticsbody .numberlist input{width: 359px;height: 27px;border:1px solid #CCCCCC;margin-left: 15px;display: block;float: left;}
+.logisticsbody .searchbtn{display: block;border:1px solid #CCCCCC;height: 27px;width: 45px;float: left;border-left: none;cursor: pointer;}
+
+.realnamebody{width: 1200px;margin:0 auto;}
+.realnamebody .numberlist{width: 100%;height: 40px;margin-top:20px;}
+.realnamebody .numberlist input{width: 359px;height: 27px;border:1px solid #CCCCCC;margin-left: 15px;display: block;float: left;}
+.realnamebody .searchbtn{display: block;border:1px solid #CCCCCC;height: 27px;width: 45px;float: left;border-left: none;cursor: pointer;}
+.listnumberbox{height: 685px;overflow: auto;float: left;margin-top: 20px;width: 100%;}
+/*.listnumber{overflow-y: auto; }*/
+.numbersearch{height: 25px;float: left;width: 100%}
+.listnumber li{width: 100%;overflow:auto;position: relative;}
+.listnumber li .boxheight{height: 45px;width: 100%;}
+.listnumber li a{display: block;float: left;margin:12px;}
+.listnumber li p{display: block;float: left;line-height: 45px;margin:0 10px; color: #666666}
+.listnumber li span{display: block;float: left;line-height: 45px;color: #0167B9;width: 150px;text-align: center;}
+.listnumber li i{display: block;width: 147px;height: 26px;border: 1px solid #ccc;font-style:normal;text-align: center;line-height: 26px;font-size: 14px;color: #666666;float: left;margin-left: 40px;margin-bottom: 10px;margin-top: 10px;cursor: pointer;}
+.listnumber .numberbox{width: 100%;clear: both;}
+
+.listbox li{width: 95%;overflow:hidden;position: relative;/* border-bottom: 1px dashed #ccc;color: #666; *//* height: 42px; line-height: 42px; */ text-indent: 10px;margin: 0px auto;}
+.listbox li .boxheight1{width: 100%; line-height: 30px!important;/* border: none; */}
+.listbox li a{display: block;float: left;margin:5px;}
+.listbox li p{display: block;float: left;line-height: 40px;margin:0 10px; color: #666666}
+.listbox li span{display: block;float: left;line-height: 40px;color: #0167B9;width: 150px;text-align: center;height:100%;}
+.listbox li i{display: block;width: 147px;height: 26px;border: 1px solid #ccc;font-style:normal;text-align: center;line-height: 26px;font-size: 14px;color: #666666;float: left;margin-left: 40px;margin-bottom: 10px;margin-top: 10px;cursor: pointer;}
+.listbox .numberbox{width: 100%;clear: both;}
+
+.customlist li{width: 100%;border-bottom: 1px dashed #ccc;overflow:auto;}
+.customlist li .boxheight{height: 45px;width: 100%;}
+.customlist li a{float: left;padding:12px;display: inline;}
+.customlist li p{display: block;float: left;line-height: 45px;margin:0 10px; color: #666666;display: inline;}
+.customlist li i{display: block;width: 147px;height: 26px;border: 1px solid #ccc;font-style:normal;text-align: center;line-height: 26px;font-size: 14px;color: #666666;float: left;margin-left: 40px;margin-bottom: 10px;margin-top: 10px;cursor: pointer;}
+.customlist .numberbox{width: 100%; clear:both;}
+
+.hotelinfo li{width: 100%;height: 45px;border-bottom: 1px dashed #ccc;}
+.hotelinfo li .firsthotelp{width: 100px;}
+.hotelinfo li p{line-height: 35px; color: #666666; display: inline-block;}
+.hotelinfo li span{line-height: 45px;color: #666666;padding: 0 10px;}
+.hotelinfo li .hoteluser{display: inline-block;width: 80px;}
+.hotelinfo li .hotelroom{display: inline-block;width: 50px;}
+.hotelinfo li i{line-height: 45px;margin:0 10px; color: #666666;font-style:normal; margin:0;}
+.personsearch{height: 50px;width:1200px;margin:10px 0;}
+.personsearch input{width: 150px;height: 29px;border:1px solid #CCCCCC;margin-left: 20px;display: block;float: left;}
+.personsearch p{display: block;width: 20px;height: 30px;float: left;margin-left: 10px;line-height: 30px;color: #676767;}
+.personsearch a{display: block;border:1px solid #CCCCCC;height: 27px;width: 45px;float: left;border-left: none;cursor: pointer;line-height: 30px;color: #676767;text-align: center;}
+.delbtn2{display: block;float: right;margin: 13px 100px 0 0;}
+
+
+.businessinfo li{width: 100%;height: 45px;border-bottom: 1px dashed #ccc;overflow: hidden;}
+.businessinfo li p:first-child{margin-left: 10px}
+.businessinfo li p:first-child span{padding: 0;}
+.businessinfo li p{line-height: 45px;margin:0 15px; color: #666666;display: block;float: left}
+.businessinfo li span{line-height: 45px;color: #666666;padding: 0 5px;}
+.businessinfo li i{line-height: 45px;margin:0 10px; color: #666666;font-style:normal; margin:0;}
+
+.cekstudent{cursor: pointer;}
+
+.studialog .dialog-footer{display: none;}
+.studialog{height: 445px!important; width: 800px!important;}
+.studialog .dialog-footer-text{display: block; visibility: hidden;}
+.putininfo h2{line-height: 250px;text-align: center;font-size: 30px;color: #676767;font-weight: 300;}
+
+.addbtnbox{float: right;}
+.numberdialog{height: 250px!important;}
+/*.putstuffinfo .dialog-footer{display: none;}*/
+.putstuffinfo .dialog-body{overflow: hidden;}
+.dangerinfos .dialog-body{overflow: hidden;}
+.createlogisticsinfo{height:550px!important;width: 630px!important;}
+.createlogisticsinfo .dialog-body{height: 435px!important;}
+.obsbtn{display: block; position: absolute;top: 4px;right: 40px;width: 80px;height: 25px;}
+.postgoods{margin-top: 10px;}
+.grayborder{display: none!important;}
+.normalborder{color: #0168b7!important;border: 1px solid #0168b7!important;}
+.blueborder{border: 1px solid #0167C0!important;color: #0167C0!important;}
+.obsimg{position: absolute; right: 30px;margin-top: 10px;}
+.hotelinfo li .goodsname { display: inline-block; width: 100px;}
+.paging2{margin-top: 10px!important;}
+.breakdialog .alert-footer .cancel{display: none;}
+.dateibox{width: 150px!important;display: inline-block;}
+.pagesbox #paging { padding : 15px 0 !important; margin:0 !important; height:auto; }
+.isredbox{opacity: 0.5!important;}
+.infobtn{cursor:default;}
+.infobtn div{cursor:default;}
+.infobtn img{cursor: default;}
+.mlist i{float: left;margin-right: 5px;color: red;}
+/* .shtitles{width: 1000px; position: relative;}
+.shtitles button{width: 120px; height: 30px ; background:url(../../img/add_1.png); border: none;display: block;position: absolute;right: 20px;top: 10px} */
+
+.publicmanagebody{height: 360px;border: 1px solid #ccc;margin-top: 80px; width: 68%; margin-left: 17%; text-align: center;}
+.publicmanage-box{ margin:0 auto; display: inline-block;}
+.publicmanageinput{width: 440px;height: 35px;margin: 40px 0;}
+.publicmanageinput p{display: block;width: 70px;text-align: right; float: left;line-height: 33px;margin-right: 20px;}
+.publicmanageinput div{display: block; border: 1px solid #ccc; float: left;width: 300px;height: 33px;border-right: none; line-height: 33px; text-align: left; text-indent: 10px; overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+.publicmanageinput select{display: block; border: 1px solid #ccc; float: left;width: 300px;height: 33px;border-right: none; line-height: 33px; text-align: left; text-indent: 10px;}
+.publicmanageinput img{display: block; border: 1px solid #ccc; float: left;width: 33px;height: 33px;border-left:none;}
+
+.amap-logo { display: none !important; }
+.amap-copyright { display: none !important; }
+
+.pcSelect { margin: 20px auto; height: 35px; line-height: 35px; width: 60%; font-size: 20px; display: block }
+
+.hotel p{display: inline-block;width: 100px;}
+.hotel input{border:1px solid #ddd; width: 310px;height: 30px;}
+.hotel li{margin-bottom: 10px;}
+.hotel .add{background: #0168b7; color: white; padding: 3px 15px; border-radius: 15px;}
+.moban{ padding: 10px 20px; font-size: 15px; background: #fafafa; border: 1px solid #ddd; margin-bottom: 5px;}
+.moban .readIdCard{top: 3px;left: 354px!important;}
+.moban .close{ background: white; color: #666; padding: 3px 15px; border-radius: 15px; border: 1px solid #ddd; margin-right: 10px;}
+.Hotelsubmit{background: #0168b7; color: white; padding: 7px 20px; border-radius: 8px;}
+.personList li{line-height: 30px;border-bottom: 1px dashed #ddd;}
+.personList .look{float: right; background: #0168b7; color: white; padding: 0px 13px; border-radius: 15px; font-size: 14px; display: inline-block; height: 25px; line-height: 25px; margin-top: 3px;}
+.personList .del{float: right; background: white; color: #666; padding: 0px 13px; border-radius: 15px; font-size: 14px; display: inline-block; height: 24px; line-height: 24px; margin-top: 3px; margin-right: 8px;}
+.addsub{background: #0168b7; color: white; padding: 3px 15px; border-radius: 15px;}
+.mobanLook{ padding: 10px 20px; font-size: 15px; background: #fafafa; border: 1px solid #ddd; margin-bottom: 5px;}
+.mobanLook .readIdCard{top: 6px;left: 354px!important;}
+.mobanLook .close{ background: white; color: #666; padding: 3px 15px; border-radius: 15px; border: 1px solid #ddd; margin-right: 10px;}
+.mobanLook p{display: inline-block;width: 100px;}
+.mobanLook input{border: 1px solid #ddd; width: 310px; height: 30px; margin: 5px;}
+
+.boxheight{border-bottom: 1px dashed #ccc;color: #666;height: 42px; line-height: 42px; text-indent: 10px;}
+.boxheight p{display: inline-block;}
+.boxheight span{display: inline-block;width: 25%;}
+.mobanLook input{border: 1px solid #ddd; width: 310px; height: 30px; margin: 5px;}
+.chooseAddressResults {width: 580px; height:26px; overflow: hidden; padding: 10px; position: relative; }
+.chooseAddressResults textarea { border: 1px solid #ccc; margin-top: 5px; }
+
+.chooseAddressResults .confirm { position: absolute; right: 10px; bottom: 6px; height: 35px; width: 50px; text-align: center; border-radius: 3px; background: #0167C0; color: #fff; line-height: 35px; }
+
+.searchAddressTree { width: 580px; padding: 10px; height: 380px;}
+.searchAddressTree input { width: 510px; border: 1px solid #ccc; height: 35px; line-height: 35px; }
+
+.searchAddressTree .searchbtn { float: right; cursor: pointer; height: 35px; width: 50px; text-align: center; border-radius: 3px; background: #0167C0; color: #fff; line-height: 35px;}
+.searchAddressTree .searchlist { padding: 10px 0; }
+.searchAddressTree .listItem { line-height: 32px; color: #666; height: 32px; padding:0 10px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap; width: 560px; }
+.searchAddressTree .listItem:hover { background: #0167C0; color: #fff; cursor:pointer; }
+
+.readIdCardbutton{position: absolute;right: 15px;height: 27px;text-align: center;color: #666;background: #fff;font-size: 15px;line-height: 27px;width: 50px;border-left: 1px solid #ccc;}
+.peopelItem{margin: 0px auto; color: #666; font-size: 14px;text-indent: 20px; border-bottom: 1px dashed #ccc;line-height: 25px; width: 80%;}
+.listnumber li{border-bottom:1px dashed #ccc; }
+.listnumber li .boxheight{border: none;}
+input[readonly]{color: #777;}
+
+
+.SinginBox .dialog-body { height: 455px; overflow: hidden; }
+
+.SinginBox .dialog-body .tepl-layout { width: 100%; height: 100%; }
+
+.SinginBox .dialog-body .tepl-left { width: 300px; overflow-y: auto; overflow-x: hidden;height: 100% ;float: left; }
+.SinginBox .dialog-body .tepl-right { width: 300px; overflow: hidden; height: 100%;float: left;  }
+.SinginBox .dialog-body .tepl-item { width: 90%; margin: 0 auto; line-height: 41px; border-bottom: 1px solid #ccc; }
+
+.SinginBox .dialog-body .positionForMap { float: right; background: url('../img/mark.png'); width: 19px; height: 31px; margin:5px 20px 5px 0; }
+
+.dialogBox{
+	width: 96%;
+	padding: 5px 12px;
+	/*border: 1px solid #DDDDDD;*/
+}
+.dialogBox .cell{
+	height: 40px;
+	position: relative;
+}
+.dialogBox .cell .label{
+	color: #666;
+	font-size: 16px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: left;
+	width: 18%;
+}
+.dialogBox .cell input{
+	border: 1px solid #DDDDDD;
+    width: 26%;
+    height: 25px;
+    margin-right: 1%;
+    padding: 0 10px;
+    color: #666;
+    font-size: 14px;
+    overflow: hidden;
+    text-indent: 3px;
+}
+.dialogBox .retract{padding-left: 30px;}
+.dialogBox .cell .small{width: 17%!important;}

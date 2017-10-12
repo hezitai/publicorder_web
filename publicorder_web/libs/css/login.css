@@ -1,0 +1,31 @@
+body {background: url(/publicorder_web/libs/img/login-bg-0.jpg); background-position: center center; background-color: #00508b; }
+#footer { color: #fff; }
+.logo-with-name { height: 50px; margin: 30px 0; width: 100%; background: url(/publicorder_web/libs/img/logo-with-name.png); background-repeat: no-repeat; background-position: 70px 0px; }
+.main { width: 100%; height: 400px; padding: 20px 0; background: url(/publicorder_web/libs/img/login-bg-1.png); position: relative;}
+.background { position: absolute; top: 20px; height: 400px; background: url(/publicorder_web/libs/img/white_bg.png); z-index: 3; width: 100%; }
+.content { max-width: 1024px; width: 100%; margin: 0 auto; height: 400px; background: url(/publicorder_web/libs/img/login-bg-2.png); position: relative; }
+.content .content-left { position: absolute; width: 60%; height: 400px; background: url(/publicorder_web/libs/img/login-bg-3.png); top: 0px; left: 0px; background-repeat: no-repeat;background-size: 100% auto; background-position: center center;}
+.content .content-right { position: absolute; width: 40%; height: 240px; top: 80px; left: 60%; z-index: 5; } 
+.content .login-box { background: url(/publicorder_web/libs/img/black_bg.png); width: 200px; height: 180px; margin: 0 auto; padding: 20px; }
+.content .login-input-box { height: 30px; width: 200px; background: #fff; margin-bottom: 20px; }
+.content label { display: inline-block; width: 30px; height: 30px; float: left; background: #aaa; }
+.content label.user { background-image: url(/publicorder_web/libs/img/login-user.png); }
+.content label.password { background-image: url(/publicorder_web/libs/img/login-password.png); }
+.content input { margin: 0px; padding: 0px; width: 160px; border: none; padding-left: 10px; display: block; float: left;height: 30px; line-height: 30px; } 
+.content .login-buttom { background: #d1ac78; text-align: center; width: 200px; margin-bottom: 20px; height: 35px; line-height: 35px; color: #fff; text-shadow: 3px 3px 2px rgba(0,0,0,.5); cursor: pointer;}
+.content .login-links {  font-size: 12px;  }
+.content .login-links a { color: #fff; }
+.content .login-links .left { float: left; }
+.content .login-links .right { float: right; }
+
+/* Footer */
+#footer { text-align: center; position: absolute; bottom: 0; width: 100%; font-size:12px; color: #41588e; background-color: #F1F1F1;padding: 20px 0; z-index: -1;}
+#footer1 { text-align: center; position: absolute; bottom: 0; width: 100%; font-size:12px; color: #FFFFFF;padding: 20px 0; z-index: -1;}
+
+
+.list { padding: 10px; }
+.list .item { width: 30%; margin: 10px 1.5%; float: left; height: 150px;cursor: pointer;}
+.list .item .border { border: 1px solid #ccc; height: 100%; width: 100%;  }
+.list .item .border .icon { background: url(/publicorder_web/libs/img/house.png); width: 60px; height: 60px; margin:10px auto;  }
+.list .item .border .name { height: 50px; margin: 10px; line-height: 25px; text-align: center; color: #666; overflow-x: hidden;  }
+

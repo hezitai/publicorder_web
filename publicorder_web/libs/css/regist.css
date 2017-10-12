@@ -1,0 +1,93 @@
+ul, ol, li {list-style: none outside none;padding: 0;margin: 0;}
+body {background: url(/publicorder_web/libs/img/login-bg-0.jpg); background-position: center center; background-color: #00508b; }
+#footer { color: #fff; }
+.main { width: 100%; height: 520px; padding: 20px 0; background: url(/publicorder_web/libs/img/login-bg-1.png); position: relative;}
+.background { position: absolute; top: 20px; height: 520px; background: url(/publicorder_web/libs/img/white_bg.png); z-index: 3; width: 100%;  }
+.content { max-width: 1024px; width: 100%; margin: 0 auto; height: 500px; padding: 10px 0; background: url(/publicorder_web/libs/img/login-bg-4.png); position: relative; background-size: 100% 100%;}
+#selectBar { margin: 0 auto; width: 462px; line-height: 48px; height: 53px; text-align: center; color: white; font-size: 25px;}
+#registPage { width: 600px; height: 430px; margin: 0 auto; background: url(/publicorder_web/libs/img/black_bg.png); position: relative; z-index: 5;}
+/* Footer */
+#footer { text-align: center; position: absolute; bottom: 0; width: 100%; font-size:12px; color: #41588e; background-color: #F1F1F1;padding: 20px 0; z-index: -1;}
+#footer1 { text-align: center; position: absolute; bottom: 0; width: 100%; font-size:12px; color: #FFFFFF;padding: 20px 0; z-index: -1;}
+
+.logo-with-name { height: 50px; margin: 30px 0; width: 100%; background: url(../img/logo-with-name.png); background-repeat: no-repeat; background-position: 70px 0px; }
+
+#registPageOne,#complete { width: 100%; height: 100%; position: relative; } 
+#registPageOne .left,#complete .left { width: 200px; background: url(/publicorder_web/libs/img/police.png); background-repeat: no-repeat; height: 500px; background-position: center 35%; position: absolute; top: 0px; left: 0px;}
+#registPageOne .right,#complete .right { width: 400px; height: 500px; position: absolute; top:0; left: 200px;} 
+
+.chooseType { width: 300px; background: #fff; height: 32px; line-height: 32px; position: absolute; top: 100px; left: 20px; cursor: pointer; border: 1px solid #ccc; }
+.chooseType ul {position: relative; width: 100%; z-index: 99; max-height: 300px; overflow-y: auto; background: #fff; border: 1px solid #aaa; border-bottom: none; line-height: 30px; color: #666; display: none; margin:0 0 0 -1px;}
+.chooseType li { border-bottom: 1px solid #aaa; padding: 0 0 0 10px; cursor: pointer; font-size: 16px; line-height: 30px; }
+.chooseType li.active { background: #2d7eb9; color: #fff; }
+.chooseType li:hover { background: #1871b2; color: #fff; }
+.results .icon { width: 32px; height: 32px; display: block; float: left; background-image: url(/publicorder_web/libs/img/select.jpg); background-size: 100% 100%; }
+.results .name { padding: 0 0 0 10px; float: left; width: 226px; color: #666;overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.results .isShow { width: 15px; height: 15px; margin: 8px; float: right; background-image: url(/publicorder_web/libs/img/show.jpg);  }
+.results .isShow.show { background-image: url(/publicorder_web/libs/img/show.jpg); }
+.results .isShow.hide { background-image: url(/publicorder_web/libs/img/hide.jpg); }
+
+#prev,#next { width: 40px; height: 40px; position: absolute; top: 210px;  }
+#prev { left: -80px; background-image: url(/publicorder_web/libs/img/prev.png);  }
+#next { right: -80px; background-image: url(/publicorder_web/libs/img/next.png); }
+#prev.hide { display: none; }
+#next.send { background-image: url(/publicorder_web/libs/img/send.png); }
+#next.hide { display: none; }
+#userMessage { padding: 15px 19px; color: #fff; font-size: 14px; }
+#userMessage input { display: inline-block; margin: 0px; padding: 0 0 0 10px; width: 432px; border: none; height: 25px; line-height: 25px; vertical-align: middle;background: url(/publicorder_web/libs/img/white_light_bg.png); color: #fff;}
+#userMessage label {display: inline-block; width: 95px; vertical-align: middle;} 
+#userMessage span.kong { vertical-align: middle; display: inline-block; width: 210px; } 
+#userMessage span.kong.left {margin: 0 36px 0 0; } 
+#userMessage .login-input-box { margin-bottom: 7px; line-height: 30px; }
+#userMessage .short label { line-height: 16px; }
+#userMessage .double input {  width: 200px; }
+#userMessage .double input.left { margin: 0 36px 0 0; }
+#userMessage input.small { width: 150px; }
+#userMessage .login-input-box .input{margin-left: 15px;}
+fieldset{ width: 97%; border-color: white; border: 1px solid; margin-bottom: 20px; padding: 0 1.5%;}
+fieldset legend {color: #fff;}
+fieldset label{width: 98px!important;}
+fieldset input{width: 150px!important;margin-bottom: 8px!important;}
+fieldset .margin{margin-right: 15px!important;}
+
+.logo-with-name a { color: #fff; float: right; margin: 0 70px 0 0; line-height: 50px; vertical-align: middle; }
+.logo-with-name span { width: 14px; height: 14px; background-image: url(/publicorder_web/libs/img/return.png); background-repeat: no-repeat; display: inline-block; vertical-align: middle; margin: -2px 5px 0 0; }
+
+#Maps {padding: 20px;}
+#Maps p { color: #fff; margin: 0 0 20px 0;  }
+#MapContainer { width: 560px; height: 360px; background: #fff;}
+
+#complete { color: #fff; text-align: center; }
+#complete h2 { margin: 130px 0 10px 0; font-weight: normal;  }
+#complete h3 { margin: 10px 0;font-weight: normal;   } 
+#complete p { margin: 10px; } 
+
+#forgetpassword { padding: 20px 30px; color: #fff; font-size: 14px; }
+#forgetpassword input { display: inline-block; margin: 0px; padding: 0 0 0 10px; width: 410px; border: none; height: 30px; line-height: 25px; vertical-align: middle; background: url(/publicorder_web/libs/img/white_light_bg.png); color: #fff;}
+#forgetpassword label { display: inline-block; width: 95px; vertical-align: middle;} 
+#forgetpassword .login-input-box { line-height: 30px; }
+#forgetpassword:first-child div{margin-top: 30px;}
+
+.content .login-buttom { background: #d1ac78; text-align: center; width: 200px; margin-bottom: 20px; height: 35px; line-height: 35px; color: #fff; text-shadow: 3px 3px 2px rgba(0,0,0,.5); margin-left: 180px; cursor: pointer;}
+
+#judeAddress { position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; z-index: 9999; display: none; }
+#judeAddress .bg { background: rgb(0,0,0); filter:alpha(opacity=40); opacity: 0.4; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;}
+#judeAddress .judeAddress-main { width: 300px; height: 250px; background: #fff; border: 1px solid #ccc; top: 50%; left: 50%; position: absolute; margin: -126px 0 0 -151px; }
+#judeAddress .judeAddress-title { -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; height: 40px; border-bottom: 1px solid #ccc; line-height: 40px; font-size: 16px; padding: 0 10px; }
+#judeAddress .judeAddress-title-text { font-size: 16px; color: #333; float: left; }
+#judeAddress .judeAddress-title-close { text-align: center;font-size: 16px; line-height: 40px; width: 40px; height: 40px; float: right; color: #666; margin: 0 -10px 0 0; cursor: pointer; }
+#judeAddress .judeAddress-body { padding: 10px; height: 189px; }
+#judeAddress .judeAddress-body .textarea { color: #666; padding: 10px; font-size: 16px; height: 115px; border: 1px solid #ccc; display: block; width: 258px; margin: 0px; line-height: 24px; margin: 0 0 10px 0;}
+
+
+#slider {width: 90%;height: 40px;position: relative;background-color: #dae2d0;overflow: hidden;text-align: center;user-select: none;-moz-user-select: none;-webkit-user-select: none;}
+#slider_bg {position: absolute;left: 0;top: 0;height: 100%;background-color: #7AC23C;z-index: 1;}
+#label { width: 46px;position: absolute;left: 0;top: 0;height: 38px;line-height: 38px;border: 1px solid #cccccc;background: #fff;z-index: 3;cursor: move;color: #ff9e77;font-size: 16px;font-weight: 900;}
+#labelTip { position: absolute;left: 0;width: 100%;height: 100%;font-size: 13px;font-family: 'Microsoft Yahei', serif;color: #787878;line-height: 38px;text-align: center;z-index: 2;}
+
+.addressdialog h2{text-align: center;font-weight: 300;}
+
+.mapBg { background:rgba(0,0,0,0.4); position: fixed; top: 0px; left: 0px; z-index: 9999; width: 30%; height: 30%; }
+.amap {position: absolute; top: 60px; left: 0px; z-index: 9999; width: 100%; height: 100%; }
+
+#addPublicAddress select { width: 90%; height: 45px; line-height: 45px; text-align: center; font-size: 16px; margin:0 5%; }
